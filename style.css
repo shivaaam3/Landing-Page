@@ -3,7 +3,6 @@ body {
     margin: 0;
 }
 
-
 .header {
     background-color: #1F2937;
     display: flex;
@@ -66,4 +65,5 @@ button.sign-up {
     width: 720px;
     height: 240px;
     background-color: grey;
+    color: #fff;
 }
