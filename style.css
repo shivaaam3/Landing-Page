@@ -33,15 +33,11 @@ body {
 
 .sign-up-container {
     background-color: #1F2937;
+    padding: 96px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 96px;
-}
-
-.text {
-    width: 360px;
-    margin: 96px 0px;
+    gap: 150px;
 }
 
 .text .title {
@@ -51,13 +47,16 @@ body {
     margin-bottom: 4px;
 }
 
-button.sign-up {
+button {
     background: #3882F6;
-    border: 1px solid #3882F6;
     border-radius: 6px;
     color: white;
     font-size: 16px;
     padding: 4px 24px;
+}
+
+button.sign-up {
+    border: 1px solid #3882F6;
     margin-top: 16px;
 }
 
@@ -66,4 +65,95 @@ button.sign-up {
     height: 240px;
     background-color: grey;
     color: #fff;
+}
+
+.slide-show-container {
+    margin: 48px 0px;
+}
+
+.slide-show-container .text {
+    margin-bottom: 48px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.slide-show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 48px;
+}
+
+.slide {
+    max-width: 164px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+}
+
+.slide-show img {
+    height: 160px;
+    width: 160px;
+    border-radius: 18px;
+    border: 4px solid #3882F6;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 48px 0px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    font-style: italic;
+    margin: 0px 382px;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 382px;
+    text-align: center;
+}
+
+.prompt-container {
+    background-color: #3882F6;
+    padding: 50px 8px;
+    margin: 96px 192px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-text {
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+
+}
+
+.sub-text {
+    font-size: 18px;
+    color: white;
+}
+
+button.sign-up-border {
+    border: 1px solid #ffffff;
+}
+
+.footer {
+    background-color: #1F2937;
+    font-size: 16px;
+    font-weight: 300;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 36px 0;
 }
